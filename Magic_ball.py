@@ -1,4 +1,3 @@
-
 # We’ll be using the following 9 possible answers for our Magic 8-Ball:
 # 
 # Yes - definitely.
