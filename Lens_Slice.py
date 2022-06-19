@@ -29,6 +29,11 @@ for i in range(0,6):
     pizza_and_prices.append([prices[i], toppings[i]])
 print(pizza_and_prices)
 
+#also possible with zip but would return a tuple 
+
+pizza_and_prices_zip = zip(prices,toppings)
+print("Zip is : " , list(pizza_and_prices_zip))
+
 
 #Sort pizza_and_prices so that the pizzas are in the order of increasing price (ascending).
 
